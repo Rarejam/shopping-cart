@@ -1,0 +1,102 @@
+body {
+  background-color: grey;
+  padding: none;
+  margin: 0px;
+}
+.container {
+  /* display: flex;
+  flex-direction: column; */
+  display: grid;
+  grid-template-columns: repeat(1, 100%);
+  grid-template-rows: repeat(1, 10%) repeat(1, 80%) repeat(1, 10%);
+  border: 1px solid;
+  min-height: 50rem;
+}
+.container > div {
+  border: 1px solid;
+}
+.header {
+  position: sticky;
+  top: 0;
+  display: grid;
+  grid-template-columns: 70% 10% 10% 10%;
+
+  /* grid-template-columns: repeat(1, 70%) repeat(1, 10%) repeat(1, 10%) repeat(1, 10%); */
+  grid-template-rows: repeat(1, 100%);
+  align-items: center;
+  /* padding-top: 10px; */
+  background-color: black;
+}
+.header > div {
+  /* border: 1px solid; */
+}
+.header a {
+  color: wheat;
+  text-decoration: none;
+  transition: 0.2s;
+}
+.header a:hover {
+  text-shadow: 5px 5px 8px white;
+}
+.header-text {
+  color: wheat;
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 10px;
+  font-size: 48px;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+}
+.home-content {
+  background-image: url('shoppingCart.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.home-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-style: italic;
+  color: wheat;
+}
+.home-content-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.display-content {
+  background-image: url('shoppingCart.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.display-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-style: italic;
+  color: wheat;
+}
+.display-content-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+button {
+  background-color: black;
+  color: wheat;
+  border: none;
+  border-radius: 10px;
+  height: 40px;
+  width: 90px;
+  transition: 0.3s;
+}
+button:hover {
+  scale: 1.3;
+}
+button:active {
+  scale: 1;
+}
