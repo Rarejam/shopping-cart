@@ -36,7 +36,18 @@ export const Layout = () => {
           <div>
             <b>Follow Us!</b>
           </div>
-          <div>some svgs here</div>
+          <div className='footer-svgs'>
+            <a href='http://www.instagram.com'>
+              <div className='instagram'></div>
+            </a>
+            {/* </div> */}
+            <a href='http://www.linkedin.com'>
+              <div className='link'></div>
+            </a>
+            <a href='http://www.youtube.com'>
+              <div className='youtube'></div>
+            </a>
+          </div>
         </div>
       </div>
       <div className='copyrights'>Copyright 2025. All Rights Reserved.</div>

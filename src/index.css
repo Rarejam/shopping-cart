@@ -176,3 +176,31 @@ button:active {
 .cart-svg:active {
   transform: translateX(-10px);
 }
+.instagram {
+  background-image: url(instagram.svg);
+  background-repeat: no-repeat;
+  background-color: wheat;
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+}
+.link {
+  background-image: url(link.svg);
+  background-repeat: no-repeat;
+  background-color: wheat;
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+}
+.youtube {
+  background-image: url(youtube.svg);
+  background-repeat: no-repeat;
+  background-color: wheat;
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+}
+.footer-svgs {
+  display: flex;
+  justify-content: space-evenly;
+}
