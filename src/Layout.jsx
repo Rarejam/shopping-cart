@@ -8,7 +8,10 @@ export const Layout = () => {
         <div className='header-text'>
           <div>Jam-Mart</div>
           <div>
-            <button style={{ backgroundColor: 'white' }}>shop</button>
+            <button style={{ backgroundColor: 'white' }} className='cart-svg'>
+              {/* <img src='cart.svg' /> */}
+              <div className='cart-value'>3</div>
+            </button>
           </div>
         </div>
         <Link to='/'>Home</Link>

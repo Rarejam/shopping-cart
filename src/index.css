@@ -140,3 +140,39 @@ button:active {
   font-size: 24px;
   font-family: bold;
 }
+.cart-svg {
+  width: 50px; /* Set width */
+  height: 50px;
+  border-radius: 50%;
+  background-image: url('cart.svg');
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-position: center;
+  border: none; /* Optional: remove default button border */
+  cursor: pointer;
+  position: relative;
+  transform: translateY(1px);
+}
+.cart-value {
+  transform: translateY(5px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  color: black;
+  background-color: red;
+  font-size: 18px;
+  width: 25px; /* Set width */
+  height: 25px;
+  border-radius: 50%;
+}
+.cart-svg:hover {
+  scale: 1;
+  /* transform: translateY(0px); */
+  transform: translateX(10px); /* moves right on hover */
+}
+.cart-svg:active {
+  transform: translateX(-10px);
+}
