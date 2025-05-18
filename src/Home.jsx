@@ -4,7 +4,7 @@ export const Home = () => {
       <div className='home-content'>
         <div className='home-content-content'>
           <div>
-            <h1>shop you clothes and accessories from Jam-Mart</h1>
+            <h1>shop your clothes and accessories from Jam-Mart</h1>
           </div>
           <div>
             <button>Shop!</button>

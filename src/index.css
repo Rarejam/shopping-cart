@@ -34,6 +34,9 @@ body {
   color: wheat;
   text-decoration: none;
   transition: 0.2s;
+  margin-right: 5px;
+  padding: 10px;
+  border-right: 2px solid white;
 }
 .header a:hover {
   text-shadow: 5px 5px 8px white;
@@ -41,7 +44,7 @@ body {
 .header-text {
   color: wheat;
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-around;
   padding-left: 10px;
   font-size: 48px;
   font-family: 'Times New Roman', Times, serif;
@@ -99,4 +102,41 @@ button:hover {
 }
 button:active {
   scale: 1;
+}
+.copyrights {
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: wheat;
+  font-style: italic;
+}
+.footer {
+  display: flex;
+  border: 1px solid;
+  align-items: center;
+  /* gap: 50px; */
+  /* justify-content: center; */
+  justify-content: space-evenly;
+  flex: 1 1 0;
+  flex-wrap: wrap;
+  background-color: black;
+  color: wheat;
+}
+.first-footer-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  font-size: 18px;
+}
+.second-footer-div {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  font-size: 18px;
+}
+.third-footer-div {
+  font-size: 24px;
+  font-family: bold;
 }
